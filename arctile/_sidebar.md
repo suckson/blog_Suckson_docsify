@@ -1,11 +1,11 @@
 - [**浅谈模块化在前端工程中的应用**](docs/with-weex-toolkit)
 - 技术栈
-    - [node](packages/jinyong.md)
-    - [js](packages/wxc-cell/)
+    - [chaiheng](packages/jinyong.md)
+    - [wxc-cell](packages/wxc-cell/)
     - [wxc-ep-slider](packages/wxc-ep-slider/)
 
 - JavaScript
-    - [jsxx](packages/wxc-minibar/)
+    - [wxc-minibar](packages/wxc-minibar/)
     - [wxc-tab-bar](packages/wxc-tab-bar/)
     - [wxc-tab-page](packages/wxc-tab-page/)
 

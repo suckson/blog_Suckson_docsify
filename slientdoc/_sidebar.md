@@ -1,7 +1,7 @@
 - [**浅谈模块化在前端工程中的应用**](docs/with-weex-toolkit)
 - 技术栈
-    - [金庸叫你谈恋爱](packages/jinyong.md)
-    - [wxc-cell](packages/wxc-cell/)
+    - [web开发](/slientdoc/web/html.md)
+    - [nannan](/slientdoc/web/sys.md)
     - [wxc-ep-slider](packages/wxc-ep-slider/)
 
 - JavaScript
