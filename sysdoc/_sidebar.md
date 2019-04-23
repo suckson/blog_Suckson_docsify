@@ -1,34 +1,53 @@
-- [**浅谈模块化在前端工程中的应用**](docs/with-weex-toolkit)
-- 技术栈
-    - [chaiheng](packages/jinyong.md)
-    - [wxc-cell](packages/wxc-cell/)
-    - [wxc-ep-slider](packages/wxc-ep-slider/)
+- 知识篇
+  - [操作系统(OS X)](basic/osx.md)
+  - [优雅地使用iPad开发](basic/pad.md)
+  - 必备神器
+    - [Brew](basic/resource/brew.md)
+    - [OhMyZsh](basic/resource/zsh.md)
+    - [Dnsmasq](basic/resource/dnsmasq.md)
+    - [IDE](basic/resource/ide.md)
+    - [科学上网](basic/resource/ss.md)
+    - [在线资源](basic/resource/online.md)
+    - [离线资源](basic/resource/offline.md)
+    - [前端资源](basic/resource/frontend.md)
+  - 基础知识
+    - [HTTP](basic/knowledge/http.md)
+    - [SHELL](basic/knowledge/shell.md)
+    - [GIT](basic/knowledge/git.md)
+    - [Promise](basic/knowledge/promise.md)
+    - [Docker 加速](basic/knowledge/docker.md)
+    - [Web中文字体](basic/knowledge/fonts.md)
+    - [Github部署SPA路由单页应用](basic/knowledge/github-pages-spa-router.md)
+    - [Travis-CI每日构建](basic/knowledge/travis-ci.md)
+  
+  - [算法入门（使用ES 6/7）](basic/algorithm/README.md)
+    - [奇数求和](basic/algorithm/sum-of-odd-numbers.md)
+    - [查找单数](basic/algorithm/find-the-odd-int.md)
+    - [查找杂散数](basic/algorithm/find-the-stray-number.md)
+    - [无限层级目录算法](basic/algorithm/categories.md)
+- 经验篇
+  - [设计](experience/design/README.md)
+    - [需求分析](experience/design/requirements.md)
+    - [产品设计](experience/design/product.md)
+    - [系统架构](experience/design/architecture.md)
+    - [系统架构设计实践](experience/design/system.md)
+  - [项目](experience/project/README.md)
+    - [MVP原则](experience/project/mvp.md)
+    - [分治原则](experience/project/divide.md)
+    - [项目结构](experience/project/structure.md)
+    - [开发指南](experience/project/develop.md)
+    - [功能模块设计](experience/project/user/module.md)
+    - [数据库设计](experience/project/user/db.md)
+    - [缓存设计](experience/project/user/cache.md)
+    - [BDD实践](experience/project/user/bdd.md)
+    - [代码细节处理](experience/project/user/particulars.md)
+- [运维](experience/operation/README.md)
+    - [服务器配置](experience/operation/server.md)
+    - [PM2守护进程](experience/operation/pm2.md)
+    - [Later计划任务](experience/operation/later.md)
+    - [CI工作流](experience/operation/workflow.md)
+    - [重启服务](experience/operation/restarter.md)
+    - [版本回退](experience/operation/rollback.md)
+    - [CertBot证书](experience/operation/certbot.md)
+    - [CloudFlare](experience/operation/cloudflare-nginx.md)
 
-- JavaScript
-    - [wxc-minibar](packages/wxc-minibar/)
-    - [wxc-tab-bar](packages/wxc-tab-bar/)
-    - [wxc-tab-page](packages/wxc-tab-page/)
-
-- Linux
-    - [wxc-checkbox](packages/wxc-checkbox/)
-    - [wxc-countdown](packages/wxc-countdown/)
-    - [wxc-grid-select](packages/wxc-grid-select/)
-
-- Java
-    - [wxc-city](packages/wxc-city/)
-    - [wxc-icon](packages/wxc-icon/)
-    - [wxc-indexlist](packages/wxc-indexlist/)
-- 数据库大数据
-    - [wxc-dialog](packages/wxc-dialog/)
-    - [wxc-loading](packages/wxc-loading/)
-- 
-   - [wxc-lottery-rain](packages/wxc-lottery-rain/)
-
-- 日常小工具
-   - [2048游戏](packages/utils/)
-- [**Weex Ui 半年开源之路**](docs/weex-ui-report)
-- [**Weex + Ui - Weex Conf 2018**](docs/weex-ui-weex-conf-2018)
-- [**FAQ**](docs/faq)
-- [**CHANGELOG**](CHANGELOG)
-- [**CONTRIBUTING**](CONTRIBUTING)
-- [Who is using Weex Ui?](docs/who_use.md)

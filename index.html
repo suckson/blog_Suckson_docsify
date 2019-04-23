@@ -5,8 +5,13 @@
   <title>舒克生</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
+  <meta name="keywords" content="doc,docs,documentation,gitbook,creator,generator,github,jekyll,github-pages">
+  <meta name="description" content="A magical documentation generator.">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" disabled>
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/dark.css" title="dark" disabled>
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/buble.css" title="buble" >
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/pure.css" title="pure" disabled>
 </head>
 <body>
   <div id="app">Loading...</div>
@@ -14,7 +19,12 @@
     window.$docsify = {
       name: '舒克生博客',
       coverpage: './congfigpage/_coverpage.md',
-      search: 'auto',
+      search: {
+        placeholder: 'Search',
+        noData: 'Nothing'
+      },
+      formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}',
+      //themeColor: '#43d731',
       auto2top: true,
       repo: 'https://github.com/Suckson?tab=repositories',
       subMaxLevel: 2,
@@ -30,5 +40,6 @@
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
