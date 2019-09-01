@@ -126,6 +126,6 @@ pre[class*="language-"] {
 .markdown-section pre>code{
 	background: #313131;
 }
-.markdown-section code, .markdown-section pre {
+.markdown-section pre {
 	background-color: #313131;
 }
