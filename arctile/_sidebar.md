@@ -1,18 +1,17 @@
-- 能力
-    - [新人成长](mind/capability/growth.md)
-    - [学习能力](mind/capability/study.md)
-    - [问题处理能力](mind/capability/solving.md)
-- 思维模式
-    - [忽略细节，就是屎](mind/thinking/shit.md)
-    - [辩证思维](mind/thinking/dialectical.md)
-    - [克服强迫症](mind/thinking/ocd.md)
-    - [木桶效应](mind/thinking/buckets.md)
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: suckson
+ * @Date: 2019-04-02 12:06:29
+ * @LastEditors: suckson
+ * @LastEditTime: 2019-09-01 14:40:03
+ -->
+- 心路历程
+    - [毕业了](/arctile/biyele/biyele.md)
+    - [不能再见](/arctile/biyele/seeyou.md)
+- 偶像精神
+    - [徐霞客](/arctile/biyele/biyele.md)
 - 团队建设
-    - [好员工的定义](mind/team/define-good-employee.md)
-    - [优秀工程师/程序员](mind/team/define-good-engineer.md)
-    - [招聘原则](mind/team/hire.md)
-    - [会议原则](mind/team/meeting.md)
-    - [人才理念](mind/team/concept.md)
-- 休闲文章
+- 收集文章
     - [金庸教你谈恋爱](/arctile/jinyong/jinyong.md)
     - [王者荣耀台词](/arctile/jinyong/wangzhe.md)

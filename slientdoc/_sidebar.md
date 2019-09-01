@@ -1,31 +1,35 @@
-- [**浅谈模块化在前端工程中的应用**](/slientdoc/web/moudle.md)
-- 技术栈
-    - [web开发](/slientdoc/web/html.md)
-    - [nannan](/slientdoc/web/sys.md)
-    - [wxc-ep-slider](packages/wxc-ep-slider/)
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: suckson
+ * @Date: 2019-04-02 12:06:29
+ * @LastEditors: suckson
+ * @LastEditTime: 2019-09-01 18:05:42
+ -->
+- [**前端常用的资源链接**](/slientdoc/web/moudle.md)
+- Css
+    - [不常用到的css骚操作](/slientdoc/web/html/cssoperation)
+    - [css伪类的探索](/slientdoc/web/sys.md)
+    - [css易望特性](packages/wxc-ep-slider/)
 
 - JavaScript
     - [wxc-minibar](packages/wxc-minibar/)
     - [wxc-tab-bar](packages/wxc-tab-bar/)
     - [wxc-tab-page](packages/wxc-tab-page/)
+
+- HTML
+    - [滚动条](/slientdoc/web/html/scroll.md)
+    - [wxc-tab-bar](packages/wxc-tab-bar/)
+    - [wxc-tab-page](packages/wxc-tab-page/)
+
 - 常用框架
-    - [HAPI](basic/framework/hapi.md)
-    - [Socket.IO](basic/framework/socketio.md)
     - [Electron](basic/framework/electron.md)
-    - [UDP](basic/framework/udp.md)
     - [Koa](basic/framework/koa.md)
     - [Vue](basic/framework/vue.md)
-    - [Webpack](basic/framework/webpack.md)
-    - [React Redux](basic/framework/redux.md)
-    - [NativeScript](basic/framework/nativescript.md)
-    - [Phantom/Request](basic/framework/crawler.md)
-    - [Nuxt.js](basic/framework/nuxt.md)
 
 - Markdown
-    - [Hexo静态博客搭建](basic/md/hexo.md)
-    - [GitBook到Docsify](basic/md/gitbook-to-docsify.md)
     - [Docsify流程图序列图](basic/md/docsify.md)
-    - [GitBook静态文档生成](basic/md/gitbook.md)
+    
 
 - Azure(Node.js)
     - [IoT Hub](experience/azure/iot-hub.md)
@@ -46,13 +50,8 @@
   - Node.js
     - [包管理](basic/node/pkg.md)
     - [Yarn进阶](basic/node/yarn.md)
-    - [Babel](basic/node/babel.md)
-    - [Flow](basic/node/flow.md)
-    - [Test](basic/node/test.md)
-    - [Benchmark](basic/node/benchmark.md)
     - [造轮子(NPM)篇](basic/node/npm.md)
     - [CPU调度](basic/node/cpu.md)
 
-- 日常小工具
+- 日常demo
     - [2048游戏](packages/utils/)
-    - [Who is using Weex Ui?](docs/who_use.md)

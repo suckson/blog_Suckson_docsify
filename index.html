@@ -1,5 +1,14 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: suckson
+ * @Date: 2019-04-02 12:06:29
+ * @LastEditors: suckson
+ * @LastEditTime: 2019-09-01 19:13:17
+ -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>舒克生</title>
@@ -7,12 +16,16 @@
   <meta name="description" content="Description">
   <meta name="keywords" content="doc,docs,documentation,gitbook,creator,generator,github,jekyll,github-pages">
   <meta name="description" content="A magical documentation generator.">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" disabled>
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/dark.css" title="dark" disabled>
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="./public/prism/prism.css">
+  <!-- <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/dark.css" title="dark"> -->
+  <!--
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/buble.css" title="buble" >
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/pure.css" title="pure" disabled>
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/pure.css" title="pure" disabled> -->
 </head>
+
 <body>
   <div id="app">Loading...</div>
   <script>
@@ -35,11 +48,22 @@
       notFoundPage: '/congfigpage/my404.md',
       alias: {
       },
-      basePath:'/',
-      homepage:'README.md'
+      copyCode: {
+        buttonText: 'Copy to clipboard',
+        errorText: 'Error',
+        successText: 'Copied'
+      },
+      basePath: '/',
+      homepage: 'README.md'
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/emoji.js"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="./public/prism/prism.js"></script>
 </body>
+
 </html>
