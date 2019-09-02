@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-09-01 14:09:34
+ * @LastEditTime: 2019-09-02 11:05:44
  -->
 - 知识篇
   - [操作系统(概论)](sysdoc/src/sys.md)
@@ -20,6 +20,7 @@
     - [奇数求和]()
     - [查找单数]()
     - [查找杂散数]()
+    - [每日一练](sysdoc/src/everyDay.md)
     - [无限层级目录算法]()
 - 经验篇
   - [设计]()
