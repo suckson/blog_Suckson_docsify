@@ -4,28 +4,25 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-09-01 18:05:42
+ * @LastEditTime: 2019-09-03 22:28:07
  -->
 - [**前端常用的资源链接**](/slientdoc/web/moudle.md)
 - Css
     - [不常用到的css骚操作](/slientdoc/web/html/cssoperation)
-    - [css伪类的探索](/slientdoc/web/sys.md)
+    - [css伪类的探索](/slientdoc/web/html/css-weilie)
     - [css易望特性](packages/wxc-ep-slider/)
 
 - JavaScript
-    - [wxc-minibar](packages/wxc-minibar/)
-    - [wxc-tab-bar](packages/wxc-tab-bar/)
-    - [wxc-tab-page](packages/wxc-tab-page/)
+  
 
 - HTML
     - [滚动条](/slientdoc/web/html/scroll.md)
-    - [wxc-tab-bar](packages/wxc-tab-bar/)
-    - [wxc-tab-page](packages/wxc-tab-page/)
+    
 
 - 常用框架
-    - [Electron](basic/framework/electron.md)
-    - [Koa](basic/framework/koa.md)
-    - [Vue](basic/framework/vue.md)
+    - [Electron](/slientdoc/web/frame/electron.md)
+    - [Electron实战](/slientdoc/web/frame/electronpritice.md)
+   
 
 - Markdown
     - [Docsify流程图序列图](basic/md/docsify.md)

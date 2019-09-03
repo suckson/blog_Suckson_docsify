@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-09-01 17:56:04
+ * @LastEditTime: 2019-09-03 10:21:24
  -->
 <div align="center">
 
@@ -36,28 +36,17 @@
 
 ## Github仓库
 
-- [docsify-remote-markdown](https://github.com/JerryC8080/docsify-remote-markdown) - Load markdown docs from remote. [@JerryC](https://github.com/JerryC8080).
-- [docsify-pagination](https://github.com/imyelo/docsify-pagination) - Pagination for docsify [@imyelo](https://github.com/imyelo).
-- [docsify-plantuml](https://github.com/imyelo/docsify-plantuml) - PlantUML for docsify [@imyelo](https://github.com/imyelo).
-- [docsify-copy-code](https://github.com/jperasmus/docsify-copy-code) - A docsify plugin that copies Markdown code block to your clipboard [@jperasmus](https://github.com/jperasmus).
-- [docsify-demo-box-vue](https://github.com/njleonzhang/docsify-demo-box-vue) - write Vue demo in docsify with instant preview and jsfiddle integration [@njleonzhang](https://github.com/njleonzhang/docsify-demo-box-vue).
-- [docsify-demo-box-react](https://github.com/njleonzhang/docsify-demo-box-react) - write React jsx demo in docsify with instant preview and jsfiddle integration [@njleonzhang](https://github.com/njleonzhang/docsify-demo-box-vue).
-- [docsify-edit-on-github](https://github.com/njleonzhang/docsify-edit-on-github) - Add Edit on GitHub button on every pages [@njleonzhang](https://github.com/njleonzhang/docsify-demo-box-vue).
-- [docsify-tabs](https://jhildenbiddle.github.io/docsify-tabs) - A docsify plugin for displaying tabbed content from markdown [@jhildenbiddle](https://github.com/jhildenbiddle/docsify-tabs).
-- [docsify-katex](https://github.com/upupming/docsify-katex) - A docsify plugin for rendering LaTex math equations [@upupming](https://github.com/upupming).
-- [docsify-pdf-embed](https://github.com/lazypanda10117/docsify-pdf-embed) - A docsify plugin for embedding PDF on any page [@lazypanda10117](https://github.com/lazypanda10117).
-- [docsify-plugin-flexible-alerts](https://github.com/zanfab/docsify-plugin-flexible-alerts) - A docsify plugin to convert blockquotes into beautiful and configurable alerts using preconfigured or own styles and alert types. [@zanfab](https://github.com/zanfab).
-- [docsify-pdf-converter](https://github.com/meff34/docsify-to-pdf-converter) - Create PDF files based on your docsify project [@meff34](https://github.com/meff34).
-- [docsify-commento](https://github.com/ndom91/docsify-commento) - Append [commento](https://gitlab.com/commento/commento) section to the bottom of every page [@ndom91](https://github.com/ndom91).
-- [docsify-gifcontrol](https://gbodigital.github.io/docsify-gifcontrol) - A docsify plugin that adds customizable player controls to GIFs. [@adambergman](https://github.com/adambergman) from [@gbodigital](https://github.com/gbodigital).
-- [docsify-example-panels](https://github.com/VagnerDomingues/docsify-example-panels) - A plugin for rendering slate alike right example panels.
+- [D2 Admin](https://start-kit.d2admin.fairyever.com/#/index) - 优雅的中后台集成方案. [@JerryC](https://github.com/JerryC8080).
+
 
 ## 网络的资源
 
 - [Github图标制作](https://shields.io/) - github小图标制作,丰富的选择项目版本，自定义颜色，让你的ReadeMe文件逼格更高。
 - [cdn加速](https://www.bootcdn.cn/) - 前端常用的cdn加速仓库。包含jquery vue 等等常用的cdn在线地址引用。
 - [PPT资源下载](http://www.1ppt.com/) - 好用的PPT资源下载网。办公必备~~~
-
+- [清华大学开源镜像站](https://mirror.tuna.tsinghua.edu.cn/help/gitlab-ce/) - linux必备，系统必备
+- [云盘精灵搜索](https://www.yunpanjingling.com/) - 丰富的云盘资源搜索
+- [GIS地图数据制作](http://srtm.csi.cgiar.org/srtmdata/) - GIS地图数据制作，制作属于自己的地形数据。
 
 ## 教程篇
 

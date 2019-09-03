@@ -4,17 +4,18 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-09-02 11:05:44
+ * @LastEditTime: 2019-09-03 23:28:49
  -->
+- [**计算机系统资源链接**](sysdoc/src/ziyuan.md)
 - 知识篇
   - [操作系统(概论)](sysdoc/src/sys.md)
   - 必备神器
     - [Dnsmasq]()
     - [IDE]()
   - 基础知识
-    - [HTTP]()
+    - [HTTP](sysdoc/src/http.md)
     - [GIT]()
-    - [Docker 加速]()
+    - [进程线程](sysdoc/src/thread.md)
   
   - [算法入门]()
     - [奇数求和]()
