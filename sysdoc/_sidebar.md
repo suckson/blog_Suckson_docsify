@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-09-03 23:28:49
+ * @LastEditTime: 2019-09-04 10:40:35
  -->
 - [**计算机系统资源链接**](sysdoc/src/ziyuan.md)
 - 知识篇
@@ -16,6 +16,7 @@
     - [HTTP](sysdoc/src/http.md)
     - [GIT]()
     - [进程线程](sysdoc/src/thread.md)
+    - [NODE](sysdoc/src/node.md)
   
   - [算法入门]()
     - [奇数求和]()
