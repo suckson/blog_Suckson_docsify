@@ -10,8 +10,9 @@
     - [毕业了](/arctile/biyele/biyele.md)
     - [不能再见](/arctile/biyele/seeyou.md)
 - 偶像精神
-    - [徐霞客](/arctile/biyele/biyele.md)
+    - [徐霞客](/arctile/mystart/xuxiake.md)
 - 团队建设
 - 收集文章
-    - [金庸教你谈恋爱](/arctile/jinyong/jinyong.md)
+    - [金庸教你谈恋爱一](/arctile/jinyong/jinyong1.md)
+    - [金庸教你谈恋爱二](/arctile/jinyong/jinyong2.md)
     - [王者荣耀台词](/arctile/jinyong/wangzhe.md)

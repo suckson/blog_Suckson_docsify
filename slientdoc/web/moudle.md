@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-09-03 10:21:24
+ * @LastEditTime: 2019-09-22 21:24:36
  -->
 <div align="center">
 
@@ -40,13 +40,19 @@
 
 
 ## 网络的资源
-
+- [17网站监测工具](http://www.17ce.com/site)- 17网站监测工具,测试国内网络的响应时间。
+- [斗图网](https://www.doutula.com/photo/9238864)- 嘿嘿，再也不怕跟妹子斗图是词穷了。
 - [Github图标制作](https://shields.io/) - github小图标制作,丰富的选择项目版本，自定义颜色，让你的ReadeMe文件逼格更高。
 - [cdn加速](https://www.bootcdn.cn/) - 前端常用的cdn加速仓库。包含jquery vue 等等常用的cdn在线地址引用。
 - [PPT资源下载](http://www.1ppt.com/) - 好用的PPT资源下载网。办公必备~~~
 - [清华大学开源镜像站](https://mirror.tuna.tsinghua.edu.cn/help/gitlab-ce/) - linux必备，系统必备
 - [云盘精灵搜索](https://www.yunpanjingling.com/) - 丰富的云盘资源搜索
 - [GIS地图数据制作](http://srtm.csi.cgiar.org/srtmdata/) - GIS地图数据制作，制作属于自己的地形数据。
+- [天地图开发中心](http://www.tianditu.gov.cn/)- 天地图开发中心，接入属于自己的地图影像数据。
+- [学设计网](https://www.xuesheji.me/index/index/login.html)- 学设计网站，可以破解千图、千库、等
+- [狗狗api](https://dog.ceo/dog-api/)- 随机返回一张狗狗的图片。
+- [猫咪的api](https://thecatapi.com/)-如果你是喜欢动物的人这一定是一个不错的趣味网站，随即返回一张不同类型猫咪的有趣照片。
+
 
 ## 教程篇
 

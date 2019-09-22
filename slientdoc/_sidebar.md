@@ -4,16 +4,20 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-09-03 22:28:07
+ * @LastEditTime: 2019-09-22 21:49:21
  -->
 - [**前端常用的资源链接**](/slientdoc/web/moudle.md)
 - Css
     - [不常用到的css骚操作](/slientdoc/web/html/cssoperation)
     - [css伪类的探索](/slientdoc/web/html/css-weilie)
-    - [css易望特性](packages/wxc-ep-slider/)
+    - [css易望特性](/slientdoc/web/html/flex)
+    - [布局flex](/slientdoc/web/html/flex)
+    
+- React
+ - [react初步学期](/slientdoc/web/react/react.md)
 
-- JavaScript
-  
+- GIS
+ - [gis学习](/slientdoc/web/gis/gis)
 
 - HTML
     - [滚动条](/slientdoc/web/html/scroll.md)
@@ -25,7 +29,7 @@
    
 
 - Markdown
-    - [Docsify流程图序列图](basic/md/docsify.md)
+    - [md语法](/slientdoc/web/md/syntax.md)
     
 
 - Azure(Node.js)
@@ -45,10 +49,10 @@
     - [服务端代码打包](experience/advanced/webpack-server.md)
 
   - Node.js
-    - [包管理](basic/node/pkg.md)
-    - [Yarn进阶](basic/node/yarn.md)
-    - [造轮子(NPM)篇](basic/node/npm.md)
-    - [CPU调度](basic/node/cpu.md)
+    - [NPX](/slientdoc/node/npx)
+    - [Yarn进阶](/slientdoc/node/npx)
+    - [造轮子(NPM)篇](/slientdoc/node/node)
+    - [CPU调度](/slientdoc/node/node)
 
 - 日常demo
     - [2048游戏](packages/utils/)
