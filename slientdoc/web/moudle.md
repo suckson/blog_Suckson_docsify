@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-09-22 21:24:36
+ * @LastEditTime: 2019-09-24 22:29:41
  -->
 <div align="center">
 
@@ -40,6 +40,8 @@
 
 
 ## 网络的资源
+- [一个类似知乎的好文章网站](https://medium.com)- 一个类似知乎的好文章网站,学习英文不错的选择！
+- [前端代码测试](https://jsfiddle.net/bodw90sp/)- 方便的前端编辑器。继承测试等多种功能。
 - [17网站监测工具](http://www.17ce.com/site)- 17网站监测工具,测试国内网络的响应时间。
 - [斗图网](https://www.doutula.com/photo/9238864)- 嘿嘿，再也不怕跟妹子斗图是词穷了。
 - [Github图标制作](https://shields.io/) - github小图标制作,丰富的选择项目版本，自定义颜色，让你的ReadeMe文件逼格更高。
