@@ -1,0 +1,48 @@
+ {   
+  "docsfiy": {
+      "name": "舒克生博客",
+        "coverpage": "./congfigpage/_coverpage.md",
+        "search": {
+          "placeholder": "Search",
+          "noData": "Nothing"
+        },
+        "formatUpdated": "{YYYY}-{MM}-{DD} {HH}:{mm}",
+        "auto2top": true,
+        "repo": "https://github.com/Suckson?tab=repositories",
+        "subMaxLevel": 2,
+        "maxLevel": 4,
+        "loadNavbar": true,
+        "loadSidebar": true,
+        "logo": "",
+        "notFoundPage": "/congfigpage/my404.md",
+        "alias": {
+        },
+        "copyCode": {
+          "buttonText": "复制",
+          "errorText": "失败",
+          "successText": "复制成功"
+        },
+        "basePath": "/",
+        "homepage": "README.md",
+        "flexible-alerts": {
+          "note": {
+            "label": "消息!"
+        },
+        "tip": {
+          "label": "提示！"
+        },
+        "warning": {
+          "label": "警告"
+        },
+        "danger": {
+          "label": "危险"
+        }
+      },
+      "pagination": {
+        "previousText": "上一章节",
+        "nextText": "下一章节",
+        "crossChapter": true
+      }
+    },
+    "isDev": false
+}
