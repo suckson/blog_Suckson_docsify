@@ -4,9 +4,10 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-09-24 21:26:53
+ * @LastEditTime: 2019-10-01 20:20:28
  -->
 - [**前端常用的资源链接**](/slientdoc/web/moudle.md)
+- [**归纳一个自己的学习路线**](/slientdoc/web/studyweb.md)
 - Css
     - [不常用到的css骚操作](/slientdoc/web/html/cssoperation)
     - [css知识图谱](/slientdoc/web/html/csspng)
