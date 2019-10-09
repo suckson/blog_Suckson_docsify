@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-09-01 18:02:38
  * @LastEditors: suckson
- * @LastEditTime: 2019-09-01 21:13:16
+ * @LastEditTime: 2019-10-06 21:41:32
  -->
 ## 那些css你还没用过的骚套路
 > [!WARNING|style:flat]  古人云：知之为知之不知为不知，真的是什么都不想知道，如果可以的话！！！
@@ -94,3 +94,9 @@
  </div>
 
 ###  2、超出文字隐藏：
+<div class="container-full">
+ <textarea rows="3" style="width:100%;"></textarea>
+<div class="text-right">
+<button class="btn btn-group btn-success">提交评论</button>
+</div>
+<div>

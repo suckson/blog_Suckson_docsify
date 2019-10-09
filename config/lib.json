@@ -1,13 +1,14 @@
 {
   "docsfiy": {
     "path": [
-      "https://unpkg.com/docsify/lib/docsify.js",
+      "http://127.0.0.1:5500/static/js/docsify.js",
       "https://unpkg.com/docsify-plugin-flexible-alerts@1.0.4/dist/docsify-plugin-flexible-alerts.js",
       "https://unpkg.com/docsify-copy-code@2.1.0/dist/docsify-copy-code.js",
       "https://unpkg.com/docsify/lib/plugins/zoom-image.js",
       "https://unpkg.com/docsify-pagination/dist/docsify-pagination.js",
       "https://unpkg.com/docsify/lib/plugins/search.js",
-      "https://res.wx.qq.com/open/js/jweixin-1.4.0.js"
+      "https://res.wx.qq.com/open/js/jweixin-1.4.0.js",
+      "https://unpkg.com/docsify/lib/plugins/disqus.js" 
     ]
   },
   "prism": {
