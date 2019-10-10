@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-09-24 21:31:44
+ * @LastEditTime: 2019-10-10 23:16:10
  -->
 - 心路历程
     - [毕业了](/arctile/biyele/biyele.md)
@@ -17,3 +17,4 @@
     - [金庸教你谈恋爱一](/arctile/jinyong/jinyong1.md)
     - [金庸教你谈恋爱二](/arctile/jinyong/jinyong2.md)
     - [王者荣耀台词](/arctile/jinyong/wangzhe.md)
+    - [相信未来](/arctile/randomthoughts/future.md)

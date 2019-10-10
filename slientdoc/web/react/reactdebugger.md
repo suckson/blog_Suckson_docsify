@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-10-09 17:09:21
  * @LastEditors: suckson
- * @LastEditTime: 2019-10-09 18:38:28
+ * @LastEditTime: 2019-10-10 10:54:19
  -->
 !>我曾经也泄气过，但是我经常能死灰复燃，顽强的很！
 
@@ -62,4 +62,9 @@ react-native run-android
  我们只需要摇一摇手机，即可对我们更改过的代码进行重新打包，我们可以实时的调试我们的应用。
  <p>&nbsp;</p>
 <img src ="https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/rn/debugger/6.png">
+有时候我们摇一摇可能并未生效 会提示reload could not connect development server
+我们只需要一个命令即可解决
+```bash
+adb reverse tcp:8081 tcp:8081
+ ```
 <p>&nbsp;</p>

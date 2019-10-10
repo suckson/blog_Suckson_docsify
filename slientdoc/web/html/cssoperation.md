@@ -4,10 +4,10 @@
  * @Author: suckson
  * @Date: 2019-09-01 18:02:38
  * @LastEditors: suckson
- * @LastEditTime: 2019-10-06 21:41:32
+ * @LastEditTime: 2019-10-10 09:26:38
  -->
 ## 那些css你还没用过的骚套路
-> [!WARNING|style:flat]  古人云：知之为知之不知为不知，真的是什么都不想知道，如果可以的话！！！
+> [!WARNING|style:flat]  你要时刻让自己的技术超出正常人的水平！！！
 
 ###  1、自定义滚动条的样式：
 
@@ -94,6 +94,85 @@
  </div>
 
 ###  2、超出文字隐藏：
+ 文字超出部分显示`...`是个常见的需求然而我们每次都要用js来截取字符串吗？？不用 我们完全可以通过css来实现
+
+<div style="width:100%;">
+  <p class="bg-success" style="width:180px;color:#fff;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+  天涯思君不可望，武当山顶松长<p>
+  <p class="bg-success" style="width:180px;color:#fff;overflow:hidden;     white-space:nowrap;">
+  天涯思君不可望，武当山顶松长</p>
+<div>
+</div>
+
+代码如下 
+```css
+.class{
+width:180px;
+color:#fff;
+overflow:hidden;  // 文字溢出隐藏
+text-overflow:ellipsis;  // 显示...
+white-space:nowrap;  // 不换行
+}
+```
+
+###  3、文字竖版排列：
+  ```html
+  <div class="verticle-mode">  
+    <h4>咏柳</h4>  
+    <p>碧玉妆成一树高，<br>万条垂下绿丝绦。<br>不知细叶谁裁出，<br>二月春风似剪刀。</p>  
+  </div
+  ```
+
+  ```css
+  .verticle-mode {   
+    writing-mode: tb-rl;   
+    -webkit-writing-mode: vertical-rl;         
+    writing-mode: vertical-rl;   
+}   
+/* IE7比较弱，需要做点额外的动作 */ 
+.verticle-mode {   
+    *width: 120px;   
+}   
+.verticle-mode h4,   
+.verticle-mode p {   
+    *display: inline;   
+    *writing-mode: tb-rl;   
+}   
+.verticle-mode h4 {   
+    *float:rightright;   
+}
+  ```
+
+ <style>
+.verticle-mode {
+    width:150px;
+    margin: 20px auto; 
+    writing-mode: tb-rl;   
+    -webkit-writing-mode: vertical-rl;         
+    writing-mode: vertical-rl;
+    color: green; 
+}   
+/* IE7比较弱，需要做点额外的动作 */ 
+.verticle-mode {   
+    *width: 120px;   
+}   
+.verticle-mode h4,   
+.verticle-mode p {   
+    *display: inline;   
+    *writing-mode: tb-rl;   
+}   
+.verticle-mode h4 {   
+    *float:rightright;   
+}
+ </style>
+<div class="verticle-mode">  
+    <h4>咏柳</h4>  
+    <p>碧玉妆成一树高<br>万条垂下绿丝绦<br>不知细叶谁裁出<br>二月春风似剪刀</p>  
+</div>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
 <div class="container-full">
  <textarea rows="3" style="width:100%;"></textarea>
 <div class="text-right">
