@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-10-09 18:34:44
+ * @LastEditTime: 2019-10-13 22:44:40
  -->
 - [**前端常用的资源链接**](/slientdoc/web/moudle.md)
 - [**归纳一个自己的学习路线**](/slientdoc/web/studyweb.md)
@@ -18,14 +18,18 @@
 - React
  - [react初步学期](/slientdoc/web/react/react.md)
  - [RN开发之环境搭建](/slientdoc/web/react/react-rn1.md)
- - [RN开发真机调试](/slientdoc/web/react/reactdebugger.md) 
+ - [RN开发真机调试](/slientdoc/web/react/reactdebugger.md)
+ 
 - GIS
  - [gis学习](/slientdoc/web/gis/gis)
 
 - HTML
     - [滚动条](/slientdoc/web/html/scroll.md)
-    
 
+- Es6 
+    -[滚动条](/slientdoc/web/es6/es6.md)
+    
+- [serviceWork](/slientdoc/web/servicework/servicework.md)
 - 常用框架
     - [Electron](/slientdoc/web/frame/electron.md)
     - [Electron实战](/slientdoc/web/frame/electronpritice.md)
