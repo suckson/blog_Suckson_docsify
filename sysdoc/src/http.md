@@ -4,11 +4,14 @@
  * @Author: suckson
  * @Date: 2019-09-02 15:46:43
  * @LastEditors: suckson
- * @LastEditTime: 2019-09-02 16:36:35
+ * @LastEditTime: 2019-10-17 11:02:52
  -->
 ### http协议篇
 
 > [!DANGER|style:flat]  会当凌绝顶！一览众山小！！
+
+首先问一个问题，大部分的时候你应该清楚的的知道：当你在浏览器的地址栏输入一个url按下回车时？浏览器发生了什么？？
+ 相信这个问题难不倒大多数的朋友： 
 
 ##### 一、五层网络模型介绍：
 <img src="https://img-blog.csdnimg.cn/20190531141151520.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTY4Njc3OQ==,size_16,color_FFFFFF,t_70"/>
@@ -187,3 +190,5 @@ req.writeHead(200,{
 3. 第三种就是通过浏览器插件来解决：我们在google商店里边搜索cros，可以搜到很多插件，这些插件本质上会拦截所有的请求，并且自动限制请求头。
 
 <img src="https://img-blog.csdnimg.cn/20190602132712103.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTY4Njc3OQ==,size_16,color_FFFFFF,t_70">
+
+4. 在某些场景下给标签加上crossOrgin 属性来解决脚本是否显示错误信息。但有两个条件：一是跨域脚本的服务器必须通过Access-Controll-Allow-Origin 头信息允许当前域名可以获取错误信息，二是当前域名的 script 标签也必须指明 src 属性指定的地址是支持跨域的地址，也就是 crossorigin 属性。crossorigin 属性涉及到网络安全问题；加入允许本地获取到跨域脚本的错误信息那么----我们通过报错信息的不一致，可能可以推断出当前访问的用户的使用痕迹；进而『精准』推送相关的钓鱼网站给他。

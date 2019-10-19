@@ -1,7 +1,7 @@
 {
   "docsfiy": {
     "path": [
-      "http://127.0.0.1:5500/static/js/docsify.js",
+      "http://suckson.com/static/js/docsify.js",
       "https://unpkg.com/docsify-plugin-flexible-alerts@1.0.4/dist/docsify-plugin-flexible-alerts.js",
       "https://unpkg.com/docsify-copy-code@2.1.0/dist/docsify-copy-code.js",
       "https://unpkg.com/docsify/lib/plugins/zoom-image.js",

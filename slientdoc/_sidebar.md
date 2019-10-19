@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-10-13 22:44:40
+ * @LastEditTime: 2019-10-17 22:41:34
  -->
 - [**前端常用的资源链接**](/slientdoc/web/moudle.md)
 - [**归纳一个自己的学习路线**](/slientdoc/web/studyweb.md)
@@ -21,7 +21,11 @@
  - [RN开发真机调试](/slientdoc/web/react/reactdebugger.md)
  
 - GIS
- - [gis学习](/slientdoc/web/gis/gis)
+ - [gis学习](/slientdoc/web/gis/gis.md)
+
+- JS封装
+ - [闭包原理](/slientdoc/web/jsmoudle/bibao.md)
+ - [Promise](/slientdoc/web/jsmoudle/promise.md)
 
 - HTML
     - [滚动条](/slientdoc/web/html/scroll.md)
@@ -42,7 +46,6 @@
 
   - Node.js
     - [NPX](/slientdoc/node/npx)
-
 
 - 日常demo
     - [2048游戏](https://www.jq22.com/jquery-info19627)

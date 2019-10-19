@@ -2,7 +2,7 @@
  * @Author: suckson
  * @Date: 2019-09-02 11:04:18
  * @LastEditors: suckson
- * @LastEditTime: 2019-09-02 13:59:45
+ * @LastEditTime: 2019-10-17 10:07:37
  -->
 ## 每日算法一练
 > [!NOTE|style:flat]  我欲乘风归去！！！
@@ -56,4 +56,10 @@ function Result (index,numlength){
 }
 Result(index, numlength)
  ```
+ 
+ ####  二.求多个数组之间的交集。
+ 例如: 例如输入二维数组合并二维数组中重复的元素。
+ ```js
+let Arr = [['1', '2', '3','7', '8', '10'], ['1', '11', '10'], ['1', '8', '7'], ['8', '1', '11']];
 
+ ```

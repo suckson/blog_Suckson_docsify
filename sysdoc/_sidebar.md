@@ -4,14 +4,12 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-09-04 10:40:35
+ * @LastEditTime: 2019-10-14 09:31:04
  -->
 - [**计算机系统资源链接**](sysdoc/src/ziyuan.md)
 - 知识篇
   - [操作系统(概论)](sysdoc/src/sys.md)
   - 必备神器
-    - [Dnsmasq]()
-    - [IDE]()
   - 基础知识
     - [HTTP](sysdoc/src/http.md)
     - [GIT]()
@@ -25,19 +23,11 @@
     - [每日一练](sysdoc/src/everyDay.md)
     - [无限层级目录算法]()
 - 经验篇
-  - [设计]()
+  - [设计](sysdoc/src/xuqiu.md)
     - [需求分析]()
-    - [产品设计]()
-    - [系统架构]()
-    - [系统架构设计实践]()
   - [项目]()
-    - [MVP原则]()
-    - [分治原则]()
     - [项目结构]()
-    - [开发指南]()
     - [功能模块设计]()
     - [数据库设计]()
-    - [缓存设计]()
-    - [BDD实践]()
     - [代码细节处理]()
 
