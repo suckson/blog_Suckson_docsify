@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-09-29 00:14:28
  * @LastEditors: suckson
- * @LastEditTime: 2019-10-23 00:13:58
+ * @LastEditTime: 2019-10-23 00:25:49
  -->
 <p align="center">
   <a href="http://suckson.com">
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-   记治学之文，可说，可不说，皆可信，皆可不信！
+    记治学之文，代码人生，浮沉旧梦。昨日之事也！
 </p>
 
 <p align="center">
@@ -62,8 +62,9 @@ python -m SimpleHTTPServer
 
 ### 联系作者：
 
-QQ：[791076633]()
-Email： [chaixiaoheng@aliyun.com]()
+QQ：[791076633](https://github.com/Suckson/blog_Suckson_docsify)
+
+Email： [chaixiaoheng@aliyun.com](https://github.com/Suckson/blog_Suckson_docsify)
 
 
 
