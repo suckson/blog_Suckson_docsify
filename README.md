@@ -4,15 +4,15 @@
  * @Author: suckson
  * @Date: 2019-09-29 00:14:28
  * @LastEditors: suckson
- * @LastEditTime: 2019-10-22 17:41:10
+ * @LastEditTime: 2019-10-22 17:50:40
  -->
 <p align="center">
   <a href="http://suckson.com">
-    <img alt="suckson" src="https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/img/laozijiushipin.jpg">
+    <img alt="suckson" src="https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/img/laozijiushipin.jpg" style="width:345px;height:430px;">
   </a>
 </p>
 
-<p align="center" style="color:f60;text-indent:20px;font-size:18px;">
+<p align="center" style="color:#f60;text-indent:20px;font-size:18px;">
    记幼时治学之文，言语扉扉，皆可信，皆可不信！
 </p>
 
