@@ -4,16 +4,16 @@
  * @Author: suckson
  * @Date: 2019-09-29 00:14:28
  * @LastEditors: suckson
- * @LastEditTime: 2019-10-22 17:50:40
+ * @LastEditTime: 2019-10-23 00:13:58
  -->
 <p align="center">
   <a href="http://suckson.com">
-    <img alt="suckson" src="https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/img/laozijiushipin.jpg" style="width:345px;height:430px;">
+    <img alt="suckson" src="https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/img/laozijiushipin.png">
   </a>
 </p>
 
-<p align="center" style="color:#f60;text-indent:20px;font-size:18px;">
-   记幼时治学之文，言语扉扉，皆可信，皆可不信！
+<p align="center">
+   记治学之文，可说，可不说，皆可信，皆可不信！
 </p>
 
 <p align="center">
@@ -33,41 +33,37 @@
   </a>
 </p>
 
-## 实战分享
+### 概述
 
-- [`sucksonUI`](https://github.com/Suckson/sucksonUI)
-- [`todolist` 一个vue应用](https://github.com/Suckson/todolist-vue-weppack)
-- [2048](https://github.com/Suckson/2048)
+舒克生的博客，项目主要是基于docsify的文档，我进行了自己的配置，加入了自己的一些配置：
+`config`目录下的`config.json`是docsfiy的配置信息,`lib.js`是项目的所有依赖js。在文档加载时候
+你只需引入`config`目录下的`suckson.blog.js`。
 
 
-## Showcase
+### 作者的实战分享
 
-These projects are using docsify to generate their sites. Pull requests welcome :blush:
-
-Move to [awesome-docsify](https://github.com/docsifyjs/awesome-docsify#showcase)
-
-## 作者的实战分享
-
-| Project                                          | Description                              |
+| 项目                                          | 描述                              |
 | ------------------------------------------------ | ---------------------------------------- |
-| [docute](https://github.com/egoist/docute)       | 📜 Effortlessly documentation done right |
-| [docpress](https://github.com/docpress/docpress) | Documentation website generator          |
+| [sucksonUI](https://github.com/Suckson/sucksonUI)       | 📜自己封装的一个UI库 借鉴了现在bootstarp、element、minitUI等样式|
+| [todolist](https://github.com/docpress/docpress) | 自己的Todolist，          |服务端渲染学习
 
 
-## 为我所用
+
+### 为我所用
 
 ```bash
+// 常规情况下利用docsify的服务
 docsify server run  'Your folders'
 
 // 或者直接启动一个http服务器加载index.html,docsify可以在线的解析你的.md
+// 例如在python环境下你可以这样操作
+python -m SimpleHTTPServer
 ```
 
-## Backers
+### 联系作者：
 
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/docsify#backers)]
+QQ：[791076633]()
+Email： [chaixiaoheng@aliyun.com]()
 
-<a href="https://opencollective.com/docsify#backers" target="_blank"><img src="https://opencollective.com/docsify/backers.svg?width=890"></a>
-
-## 赞助者
 
 
