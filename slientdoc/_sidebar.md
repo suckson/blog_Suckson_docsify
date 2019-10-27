@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-10-17 22:41:34
+ * @LastEditTime: 2019-10-24 13:42:49
  -->
 - [**前端常用的资源链接**](/slientdoc/web/moudle.md)
 - [**归纳一个自己的学习路线**](/slientdoc/web/studyweb.md)
@@ -34,6 +34,7 @@
     -[滚动条](/slientdoc/web/es6/es6.md)
     
 - [serviceWork](/slientdoc/web/servicework/servicework.md)
+
 - 常用框架
     - [Electron](/slientdoc/web/frame/electron.md)
     - [Electron实战](/slientdoc/web/frame/electronpritice.md)
@@ -42,10 +43,7 @@
 - Markdown
     - [md语法](/slientdoc/web/md/syntax.md)
     
-  - 进阶
 
-  - Node.js
+- NodeJS相关
     - [NPX](/slientdoc/node/npx)
 
-- 日常demo
-    - [2048游戏](https://www.jq22.com/jquery-info19627)

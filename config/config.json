@@ -8,7 +8,7 @@
         },
         "formatUpdated": "{YYYY}-{MM}-{DD} {HH}:{mm}",
         "auto2top": true,
-        "repo": "https://github.com/Suckson?tab=repositories",
+        "repo": "https://github.com/Suckson/blog_Suckson_docsify",
         "subMaxLevel": 2,
         "maxLevel": 4,
         "loadNavbar": true,
