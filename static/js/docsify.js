@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-09-30 10:30:56
  * @LastEditors: suckson
- * @LastEditTime: 2019-10-06 21:54:52
+ * @LastEditTime: 2019-10-30 09:58:51
  */
 (function () {
 /**
@@ -5021,7 +5021,7 @@ function fetchMixin(proto) {
 function initFetch(vm) {
   var ref = vm.config;
   var loadSidebar = ref.loadSidebar;
-  debugger
+  // debugger
   // Server-Side Rendering
   if (vm.rendered) {
     var activeEl = getAndActive(vm.router, '.sidebar-nav', true, true);

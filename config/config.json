@@ -43,7 +43,14 @@
         "nextText": "下一章节",
         "crossChapter": true
       },
-      "disqus": "disqus_wPIx4iSSzN"
+      "gitalk": {
+        "clientID": "377c744cf77dc37e7bb6",
+        "clientSecret": "33493f64d9b9b6c26ebfa2f1367e2e3515418b99",
+        "repo": "blog_Suckson_docsify",
+        "owner": "Suckson",
+        "admin": ["Suckson"],
+        "distractionFreeMode": false
+      }
     },
-    "isDev": false
+    "isDev": true
 }

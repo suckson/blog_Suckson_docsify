@@ -1,25 +1,29 @@
-{
-  "docsfiy": {
-    "path": [
-      "http://suckson.com/static/js/docsify.js",
-      "https://unpkg.com/docsify-plugin-flexible-alerts@1.0.4/dist/docsify-plugin-flexible-alerts.js",
-      "https://unpkg.com/docsify-copy-code@2.1.0/dist/docsify-copy-code.js",
-      "https://unpkg.com/docsify/lib/plugins/zoom-image.js",
-      "https://unpkg.com/docsify-pagination/dist/docsify-pagination.js",
-      "https://unpkg.com/docsify/lib/plugins/search.js",
-      "https://res.wx.qq.com/open/js/jweixin-1.4.0.js",
-      "https://unpkg.com/docsify/lib/plugins/disqus.js" 
-    ]
+{ 
+  "gitalk": {
+    "path": ["https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/static/docsify_plugin/gitalk.js"]
   },
   "prism": {
     "path":["./public/prism/prism.css",
       "./public/prism/prism.js",
-      "//unpkg.com/prismjs/components/prism-bash.js",
-      "//unpkg.com/prismjs/components/prism-bash.js"]},
+      "//unpkg.com/prismjs/components/prism-bash.js"
+      ]},
   "bootstarp": {
     "path": []
   },
   "jquery": {
     "path": ["https://cdn.bootcss.com/jquery/3.4.1/jquery.js"]
+  },
+  "docsfiy": {
+    "path": [
+      "http://suckson.com/static/js/docsify.js",
+      "http://suckson.com/static/docsify_plugin/copy-code.js",
+      "http://suckson.com/static/docsify_plugin/docsify-plugin-flexible-alerts.js",
+      "http://suckson.com/static/docsify_plugin/zoom-image.js",
+      "http://suckson.com/static/docsify_plugin/search.js",
+      "http://suckson.com/static/docsify_plugin/docsify-pagination.js",
+      "http://suckson.com/static/docsify_plugin/external-script.js",
+      "http://suckson.com/static/docsify_plugin/emoji.js",
+      "http://suckson.com/static/docsify_plugin/docsify-gitalk.js"
+    ]
   }
 }

@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-09-30 10:47:10
  * @LastEditors: suckson
- * @LastEditTime: 2019-09-30 16:58:37
+ * @LastEditTime: 2019-10-30 22:47:42
  */
 (function(window) {
   function  Suckson() {
@@ -28,11 +28,10 @@
     this.init = function (config) {
       this.ajax('get', './config/config.json').then(response => {
         const config = JSON.parse(response)
-         this.loadScript(config.isDev)
-         window.$docsify = config.docsfiy
+         this.loadScript(config.isDev, config)
       })
    }
-   this.loadScript = function (isDev) {
+   this.loadScript = function (isDev, config) {
       console.log(isDev)
       this.ajax('get', './config/lib.json').then(response => {
         const  dependenvices = JSON.parse(response)
@@ -48,10 +47,15 @@
             this.util.loadStyleSheet(url)
           } else {
             this.util.loadScript(url, isDev, function () {
-              console.log('安装'+ url + "success")
+              console.log(url)
             })
           }
         }
+        window.$docsify = config.docsfiy
+        setTimeout(function(){
+          console.log(config.docsfiy)
+          window.gitalk = new Gitalk(config.docsfiy.gitalk)
+        },5000)
       })
    },
    this.util = {
