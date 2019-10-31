@@ -6,7 +6,7 @@
           "placeholder": "Search",
           "noData": "Nothing"
         },
-        "ga": "UA-100100910-4",
+        "ga": "UAA-100100910-4",
         "executeScript": true,
         "formatUpdated": "{YYYY}-{MM}-{DD} {HH}:{mm}",
         "auto2top": true,
