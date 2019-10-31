@@ -6,6 +6,8 @@
           "placeholder": "Search",
           "noData": "Nothing"
         },
+        "ga": "UA-100100910-4",
+        "executeScript": true,
         "formatUpdated": "{YYYY}-{MM}-{DD} {HH}:{mm}",
         "auto2top": true,
         "repo": "https://github.com/Suckson/blog_Suckson_docsify",
@@ -16,6 +18,13 @@
         "logo": "",
         "notFoundPage": "/congfigpage/my404.md",
         "alias": {
+        },
+        "tabs": {
+          "persist" : true,
+          "sync": true,
+          "theme" : "material",
+          "tabComments": true,
+          "tabHeadings": true
         },
         "copyCode": {
           "buttonText": "复制",

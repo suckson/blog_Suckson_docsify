@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-06-13 20:31:27
  * @LastEditors: suckson
- * @LastEditTime: 2019-09-01 14:31:12
+ * @LastEditTime: 2019-10-31 00:22:35
  -->
 ## 毕业的感想
 
@@ -39,17 +39,17 @@
 
 <!-- <img src="../../public/img/10.jpg">
 <p style="text-align:center;">她</p> -->
-<img src="../../public/img/1.jpg">
+<img src="https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/img/1.jpg">
 <p style="text-align:center;">宿舍一家子</p>
-<img src="../../public/img/3.jpg">
+<img src="https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/img/3.jpg">
 <p style="text-align:center;">朋友最多的地</p>
-<img src="../../public/img/4.jpg">
+<img src="https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/img/4.jpg">
 <p style="text-align:center;">当兵去的文艺青年</p>
-<img src="../../public/img/5.jpg">
+<img src="https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/img/5.jpg">
 <p style="text-align:center;">我其实很喜欢黄河</p>
-<img src="../../public/img/6.jpg">
+<img src="https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/img/6.jpg">
 <p style="text-align:center;">知遇之恩</p>
-<img src="../../public/img/7.jpg">
+<img src="https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/img/7.jpg">
 <p style="text-align:center;">一个教室</p>
-<img src="../../public/img/8.jpg">
+<img src="https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/img/8.jpg">
 <p style="text-align:center;">徒弟  小芳  老郑  还有拍照的我</p>

@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-10-30 10:55:21
  * @LastEditors: suckson
- * @LastEditTime: 2019-10-30 22:33:43
+ * @LastEditTime: 2019-10-30 23:09:47
  */
 (function () {
   function install(hook) {
@@ -22,7 +22,7 @@
         el.removeChild(el.firstChild);
       }
       // eslint-disable-next-line
-      window.gitalk.render('gitalk-container');
+      gitalk.render('gitalk-container');
     });
   } 
   $docsify.plugins = [].concat(install, $docsify.plugins);
