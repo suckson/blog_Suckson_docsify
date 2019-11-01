@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-10-14 09:31:04
+ * @LastEditTime: 2019-11-01 11:13:15
  -->
 - [**计算机系统资源链接**](sysdoc/src/ziyuan.md)
 - 知识篇
@@ -27,6 +27,7 @@
     - [需求分析]()
   - [项目]()
     - [项目结构]()
+    - [git自动部署](sysdoc/src/gitci.md)
     - [功能模块设计]()
     - [数据库设计]()
     - [代码细节处理]()
