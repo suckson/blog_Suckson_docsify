@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-11-01 11:13:15
+ * @LastEditTime: 2019-11-05 17:10:45
  -->
 - [**计算机系统资源链接**](sysdoc/src/ziyuan.md)
 - 知识篇
@@ -17,7 +17,7 @@
     - [NODE](sysdoc/src/node.md)
   
   - [算法入门]()
-    - [奇数求和]()
+    - [奇数求和](sysdoc/src/every)
     - [查找单数]()
     - [查找杂散数]()
     - [每日一练](sysdoc/src/everyDay.md)
