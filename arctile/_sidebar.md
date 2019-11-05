@@ -4,12 +4,13 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-10-18 15:51:29
+ * @LastEditTime: 2019-11-04 10:35:54
  -->
 - 心路历程
     - [毕业了](/arctile/biyele/biyele.md)
     - [不能再见](/arctile/biyele/seeyou.md)
     - [生辰纲](/arctile/biyele/myfriend.md)
+    - [**告诉自己的心态理念**](/arctile/biyele/xintai.md)
 - 偶像精神
     - [**徐霞客**](/arctile/mystart/xuxiake.md)
 - 我的翻译
