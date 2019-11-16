@@ -4,18 +4,22 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-11-04 10:35:54
+ * @LastEditTime: 2019-11-15 13:00:05
  -->
 - 心路历程
     - [毕业了](/arctile/biyele/biyele.md)
     - [不能再见](/arctile/biyele/seeyou.md)
     - [生辰纲](/arctile/biyele/myfriend.md)
     - [**告诉自己的心态理念**](/arctile/biyele/xintai.md)
+    - [**我的诗**](/arctile/biyele/collectionPoems.md)
 - 偶像精神
     - [**徐霞客**](/arctile/mystart/xuxiake.md)
+    - [**戴建业-矫情**](/arctile/mystart/jiaoqing.md)
 - 我的翻译
     - [**JS前世今生**](/arctile/englishword/js_history.md)
+    - [**论编程的乐趣**](/arctile/englishword/progamming_joy.md)
 - 收集文章
+    - [好看的符号](/arctile/mystart/fihao.md)
     - [金庸教你谈恋爱一](/arctile/jinyong/jinyong1.md)
     - [金庸教你谈恋爱二](/arctile/jinyong/jinyong2.md)
     - [王者荣耀台词](/arctile/jinyong/wangzhe.md)
