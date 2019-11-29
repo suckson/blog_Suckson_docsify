@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-10-24 13:42:49
+ * @LastEditTime: 2019-11-22 17:31:24
  -->
 - [**前端常用的资源链接**](/slientdoc/web/moudle.md)
 - [**归纳一个自己的学习路线**](/slientdoc/web/studyweb.md)
@@ -34,6 +34,7 @@
     -[滚动条](/slientdoc/web/es6/es6.md)
     
 - [serviceWork](/slientdoc/web/servicework/servicework.md)
+- [webassembly](/slientdoc/web/webassembly/webassembly.md)
 
 - 常用框架
     - [Electron](/slientdoc/web/frame/electron.md)

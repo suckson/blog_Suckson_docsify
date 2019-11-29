@@ -19,7 +19,7 @@
     - [**JS前世今生**](/arctile/englishword/js_history.md)
     - [**论编程的乐趣**](/arctile/englishword/progamming_joy.md)
 - 收集文章
-    - [好看的符号](/arctile/mystart/fihao.md)
+    - [好看的符号](/arctile/mystart/fuhao.md)
     - [金庸教你谈恋爱一](/arctile/jinyong/jinyong1.md)
     - [金庸教你谈恋爱二](/arctile/jinyong/jinyong2.md)
     - [王者荣耀台词](/arctile/jinyong/wangzhe.md)

@@ -170,12 +170,11 @@ white-space:nowrap;  // 不换行
     <p>碧玉妆成一树高<br>万条垂下绿丝绦<br>不知细叶谁裁出<br>二月春风似剪刀</p>  
 </div>
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+### css控制页面的换行，加上回车。
 
-<div class="container-full">
- <textarea rows="3" style="width:100%;"></textarea>
-<div class="text-right">
-<button class="btn btn-group btn-success">提交评论</button>
-</div>
-<div>
+```css
+.div{
+	white-space: pre-wrap;
+	line-height:25px;
+}
+```

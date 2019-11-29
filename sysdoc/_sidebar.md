@@ -4,20 +4,22 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-11-11 17:20:02
+ * @LastEditTime: 2019-11-28 09:50:44
  -->
 - [**计算机系统资源链接**](sysdoc/src/ziyuan.md)
 - 知识篇
   - [操作系统(概论)](sysdoc/src/sys.md)
-  - 必备神器
-  - 基础知识
-    - [HTTP](sysdoc/src/http.md)
-    - [GIT]()
     - [进程线程](sysdoc/src/thread.md)
-    - [NODE](sysdoc/src/node.md)
-  
-  - [算法入门]()
+  - [操作系统(错题集)](sysdoc/src/syscuotiji.md)
+  - 必备神器
+  - 网络协议
+    - [HTTP](sysdoc/src/http.md)
+    - [你真的了解Post和Get吗](sysdoc/networkprotocol/postorget.md)
+  - 版本控制
+    - [GIT]()
+  - [算法]()
     - [奇数求和](sysdoc/src/every)
+    - [查找电话号](sysdoc/src/every)
     - [查找单数]()
     - [查找杂散数]()
     - [每日一练](sysdoc/src/everyDay.md)
