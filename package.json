@@ -1,0 +1,28 @@
+{
+  "name": "blog_suckson_docsify",
+  "version": "1.0.0",
+  "description": "suckson life",
+  "main": "index.js",
+  "dependencies": {
+    "ali-oss": "6.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "upload": "node config/upload.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suckson/blog_Suckson_docsify.git"
+  },
+  "keywords": [
+    "blog",
+    "node",
+    "js"
+  ],
+  "author": "suckson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suckson/blog_Suckson_docsify/issues"
+  },
+  "homepage": "https://github.com/Suckson/blog_Suckson_docsify#readme"
+}

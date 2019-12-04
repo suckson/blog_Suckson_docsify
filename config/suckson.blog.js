@@ -1,10 +1,8 @@
 /*
- * @Descripttion: 
- * @version: 
  * @Author: suckson
  * @Date: 2019-09-30 10:47:10
  * @LastEditors: suckson
- * @LastEditTime: 2019-10-30 22:47:42
+ * @LastEditTime: 2019-12-04 21:40:57
  */
 (function(window) {
   function  Suckson() {
@@ -27,12 +25,11 @@
     }
     this.init = function (config) {
       this.ajax('get', './config/config.json').then(response => {
-        const config = JSON.parse(response)
-         this.loadScript(config.isDev, config)
+         const config = JSON.parse(response)
+         this.loadLib(config.isDev, config)
       })
-   }
-   this.loadScript = function (isDev, config) {
-      console.log(isDev)
+   },
+   this.loadLib = function (isDev, config) {
       this.ajax('get', './config/lib.json').then(response => {
         const  dependenvices = JSON.parse(response)
         let dependenvicesList = []
@@ -59,6 +56,7 @@
       })
    },
    this.util = {
+    cdnUrl: 'http://alicdn.suckson.com',
     loadScript: function (url, isDev, callback) {
       var script = document.createElement("script");
       script.type = "text/javascript"
@@ -78,9 +76,10 @@
       }; 
       if(isDev){
         var timpstring = new Date().getTime();
-        script.src = url + "?" + timpstring
+        script.src = this.cdnUrl + url + "?" + timpstring
+        console.log(this.cdnUrl + url + "?" + timpstring + "安装成功")
       }else{
-        script.src = url.slice(0, -2) + 'min'+ '.js'
+        script.src = this.cdnUrl + url.slice(0, -2) + 'min'+ '.js'
       }
       document.body.appendChild(script);
     },

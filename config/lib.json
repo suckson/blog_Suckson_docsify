@@ -1,29 +1,32 @@
 { 
   "gitalk": {
-    "path": ["https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/static/docsify_plugin/gitalk.js"]
+    "path": ["/static/js/gitalk.min.js"]
   },
   "prism": {
-    "path":["./public/prism/prism.css",
-      "./public/prism/prism.js",
-      "//unpkg.com/prismjs/components/prism-bash.js"
-      ]},
+    "path":[
+      ]
+  },
   "bootstarp": {
     "path": []
   },
   "jquery": {
-    "path": ["https://cdn.bootcss.com/jquery/3.4.1/jquery.js"]
+    "path": []
   },
   "docsfiy": {
     "path": [
-      "http://suckson.com/static/js/docsify.js",
-      "http://suckson.com/static/docsify_plugin/copy-code.js",
-      "http://suckson.com/static/docsify_plugin/docsify-plugin-flexible-alerts.js",
-      "http://suckson.com/static/docsify_plugin/zoom-image.js",
-      "http://suckson.com/static/docsify_plugin/search.js",
-      "http://suckson.com/static/docsify_plugin/docsify-pagination.js",
-      "http://suckson.com/static/docsify_plugin/external-script.js",
-      "http://suckson.com/static/docsify_plugin/emoji.js",
-      "http://suckson.com/static/docsify_plugin/docsify-gitalk.js"
+      "/static/js/docsify.js",
+      "/static/docsify_plugin/copy-code.js",
+      "/static/docsify_plugin/docsify-plugin-flexible-alerts.js",
+      "/static/docsify_plugin/zoom-image.js",
+      "/static/docsify_plugin/search.js",
+      "/static/docsify_plugin/docsify-pagination.js",
+      "/static/docsify_plugin/external-script.js",
+      "/static/docsify_plugin/emoji.js",
+      "/static/docsify_plugin/docsify-gitalk.js"
     ]
+  },
+  "jiqimao": {
+    "path": ["/static/jsqimao/html2json.js",
+    "/static/jsqimao/doraemon.js"]
   }
 }
