@@ -4,16 +4,18 @@
  * @Author: suckson
  * @Date: 2019-10-01 23:11:20
  * @LastEditors: suckson
- * @LastEditTime: 2019-11-29 23:26:48
+ * @LastEditTime: 2019-12-13 09:58:00
  -->
-### 我的治愈音乐
+<p class="mystylefont1" style="font-size:20px;">Suckson-player</p>
 
-<div class="alert alert-info" role="alert" id="changemusiclyc" style="margin:25px auto;">
-<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-<p>很多时候我们爱上一首歌，是因为歌中的某句歌词唱的就是你。</p>
-<p>即便在乐曲结束之后，它仍继续栖息于体内，永不湮逝————</p>
-</div>
+<div class="alert fade alert-simple alert-success alert-dismissible text-left font__family-montserrat font__size-16  font__weight-light brk-library-rendered rendered show">
+    <span class="sr-only">Close</span> 
+    <i class="start-icon far fa-check-circle faa-tada animated"></i>
+   很多时候我们爱上一首歌，是因为歌中的某句歌词唱的就是你。
+   即便在乐曲结束之后，它仍继续栖息于体内，永不湮逝
+  </div>
 <p>&nbsp;</p>
+ 
 
 
 #### [《hey jude》](http://www.kuwo.cn/yinyue/8379114) `披头士的经典`
@@ -41,4 +43,5 @@
   >没有一个人是永久的潇洒 脑海里总会出现三个字 为什么 不解的表情 不解的心情 疯狂猜图些什么……~
 
 #### [Come And Get Your Love](http://www.kuwo.cn/yinyue/6107598)
-  >没有一个人是永久的潇洒 脑海里总会出现三个字 为什么 不解的表情 不解的心情 疯狂猜图些什么……~
+  >
+<div class="my-music" id="music-container"> </div>

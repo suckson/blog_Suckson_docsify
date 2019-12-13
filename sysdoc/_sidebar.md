@@ -4,13 +4,14 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors: suckson
- * @LastEditTime: 2019-11-28 09:50:44
+ * @LastEditTime: 2019-12-12 12:53:13
  -->
 - [**计算机系统资源链接**](sysdoc/src/ziyuan.md)
 - 知识篇
   - [操作系统(概论)](sysdoc/src/sys.md)
     - [进程线程](sysdoc/src/thread.md)
   - [操作系统(错题集)](sysdoc/src/syscuotiji.md)
+     - [ubuntu16.04装机](sysdoc/src/ubuntu16.md)
   - 必备神器
   - 网络协议
     - [HTTP](sysdoc/src/http.md)

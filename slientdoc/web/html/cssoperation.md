@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-09-01 18:02:38
  * @LastEditors: suckson
- * @LastEditTime: 2019-10-10 09:26:38
+ * @LastEditTime: 2019-12-13 10:00:14
  -->
 ## 那些css你还没用过的骚套路
 > [!WARNING|style:flat]  你要时刻让自己的技术超出正常人的水平！！！
@@ -170,7 +170,7 @@ white-space:nowrap;  // 不换行
     <p>碧玉妆成一树高<br>万条垂下绿丝绦<br>不知细叶谁裁出<br>二月春风似剪刀</p>  
 </div>
 
-### css控制页面的换行，加上回车。
+### 3.css控制页面的换行，加上回车。
 
 ```css
 .div{
@@ -178,3 +178,68 @@ white-space:nowrap;  // 不换行
 	line-height:25px;
 }
 ```
+
+### 4.几个特殊的alert样式
+<div class="alert fade alert-simple alert-success alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show">
+            <span class="sr-only">Close</span> 
+    <i class="start-icon far fa-check-circle faa-tada animated"></i>
+    You successfullyread this important.
+  </div>
+  <div class="alert fade alert-simple alert-info alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show" role="alert" data-brk-library="component__alert">
+          <span aria-hidden="true">
+          </span>
+          <span class="sr-only">Close</span>
+  <i class="start-icon  fa fa-info-circle faa-shake animated"></i>
+  This alert needs your attention, but it's not super important.
+  </div>
+ <div class="alert fade alert-simple alert-warning alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show" role="alert" data-brk-library="component__alert">
+      <span aria-hidden="true">
+      </span>
+      <span class="sr-only">Close</span>
+    <i class="start-icon fa fa-exclamation-triangle faa-flash animated"></i>
+     Better check yourself, you're not looking too good.
+  </div>
+  <div class="alert fade alert-simple alert-danger alert-dismissible text-left font__family-montserrat font__size-16  font__weight-light brk-library-rendered rendered show" role="alert" data-brk-library="component__alert">
+            <span class="sr-only">Close</span>
+    <i class="start-icon far fa-times-circle faa-pulse animated"></i>
+    Change a few things up and try submitting again.
+  </div>
+ <div class="alert fade alert-simple alert-primary alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show" role="alert" data-brk-library="component__alert">
+    <i class="start-icon fa fa-thumbs-up faa-bounce animated"></i>
+     You successfullyread this important.
+ </div>
+
+ ```html
+ <div class="alert fade alert-simple alert-success alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show">
+            <span class="sr-only">Close</span> 
+    <i class="start-icon far fa-check-circle faa-tada animated"></i>
+    You successfullyread this important.
+  </div>
+
+  <div class="alert fade alert-simple alert-info alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show" role="alert" data-brk-library="component__alert">
+          <span aria-hidden="true">
+          </span>
+          <span class="sr-only">Close</span>
+  <i class="start-icon  fa fa-info-circle faa-shake animated"></i>
+  This alert needs your attention, but it's not super important.
+  </div>
+
+ <div class="alert fade alert-simple alert-warning alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show" role="alert" data-brk-library="component__alert">
+      <span aria-hidden="true">
+      </span>
+      <span class="sr-only">Close</span>
+    <i class="start-icon fa fa-exclamation-triangle faa-flash animated"></i>
+     Better check yourself, you're not looking too good.
+  </div>
+
+  <div class="alert fade alert-simple alert-danger alert-dismissible text-left font__family-montserrat font__size-16  font__weight-light brk-library-rendered rendered show" role="alert" data-brk-library="component__alert">
+            <span class="sr-only">Close</span>
+    <i class="start-icon far fa-times-circle faa-pulse animated"></i>
+    Change a few things up and try submitting again.
+  </div>
+  
+ <div class="alert fade alert-simple alert-primary alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show" role="alert" data-brk-library="component__alert">
+    <i class="start-icon fa fa-thumbs-up faa-bounce animated"></i>
+     You successfullyread this important.
+ </div>
+ ```
