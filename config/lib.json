@@ -2,10 +2,6 @@
   "gitalk": {
     "path": ["/static/js/gitalk.min.js"]
   },
-  "prism": {
-    "path":[
-      ]
-  },
   "bootstarp": {
     "path": []
   },
@@ -28,5 +24,10 @@
   "jiqimao": {
     "path": ["/static/jsqimao/html2json.js",
     "/static/jsqimao/doraemon.js"]
+  },
+  "prism": {
+    "path":[
+      "/static/prism/prism.js"
+      ]
   }
 }
