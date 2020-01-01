@@ -63,7 +63,7 @@
                 })
             },
             this.util = {
-                cdnUrl: 'http://localhost:5500',
+                cdnUrl: 'http://suckson.com',
                 loadScript: function(url, isDev, callback) {
                     var script = document.createElement("script");
                     script.type = "text/javascript"
