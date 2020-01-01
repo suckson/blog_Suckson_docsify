@@ -1,8 +1,8 @@
 /*
  * @Author: suckson
  * @Date: 2019-09-30 10:47:10
- * @LastEditors: suckson
- * @LastEditTime: 2019-12-17 11:33:44
+ * @LastEditors  : suckson
+ * @LastEditTime : 2019-12-18 23:28:44
  */
 (function(window) {
     function Suckson() {
@@ -63,7 +63,7 @@
                 })
             },
             this.util = {
-                cdnUrl: 'http://alicdn.suckson.com',
+                cdnUrl: 'http://localhost:5500',
                 loadScript: function(url, isDev, callback) {
                     var script = document.createElement("script");
                     script.type = "text/javascript"

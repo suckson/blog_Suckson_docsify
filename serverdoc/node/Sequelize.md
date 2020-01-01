@@ -3,13 +3,12 @@
  * @version: 
  * @Author: suckson
  * @Date: 2019-10-27 20:10:25
- * @LastEditors: suckson
- * @LastEditTime: 2019-11-07 22:23:36
+ * @LastEditors  : suckson
+ * @LastEditTime : 2019-12-29 22:21:24
  -->
 ### Sequelize的使用
 
 > 
-
 
 ###  Sequelize是什么？？
   

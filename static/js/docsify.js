@@ -3,8 +3,8 @@
  * @version: 
  * @Author: suckson
  * @Date: 2019-09-30 10:30:56
- * @LastEditors: suckson
- * @LastEditTime: 2019-10-30 09:58:51
+ * @LastEditors  : suckson
+ * @LastEditTime : 2019-12-18 23:29:12
  */
 (function () {
 /**
@@ -371,13 +371,13 @@ function main(config) {
 /**
  * Cover Page
  */
-function cover() {
-  var SL = ', 100%, 85%';
+function cover() { //设置背景颜色
+  var SL = ', 100%, 85%'; 
   var bgc =
     'linear-gradient(to left bottom, ' +
     "hsl(" + (Math.floor(Math.random() * 255) + SL) + ") 0%," +
     "hsl(" + (Math.floor(Math.random() * 255) + SL) + ") 100%)";
-
+  // bgc = `url('https://cdn.suckson.cn/img/bg3.jpg') no-repeat;background-size:100% 100%;`
   return (
     "<section class=\"cover show\" style=\"background: " + bgc + "\">" +
     '<div class="cover-main"><!--cover--></div>' +
@@ -4372,7 +4372,7 @@ function renderMixin(proto) {
     });
   };
 
-  proto._renderCover = function (text, coverOnly) {
+  proto._renderCover = function (text, coverOnly) { //渲染首页
     var el = getNode('.cover');
 
     toggleClass(getNode('main'), coverOnly ? 'add' : 'remove', 'hidden');
@@ -4905,6 +4905,7 @@ function fetchMixin(proto) {
     var root = getParentPath(this.route.path);
 
     if (coverpage) {
+     // debugger
       var path = null;
       var routePath = this.route.path;
       if (typeof coverpage === 'string') {

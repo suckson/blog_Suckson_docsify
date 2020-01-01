@@ -3,8 +3,8 @@
  * @version: 
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
- * @LastEditors: suckson
- * @LastEditTime: 2019-12-16 09:18:15
+ * @LastEditors  : suckson
+ * @LastEditTime : 2019-12-30 22:14:15
  -->
 - DB
     - [mysql](serverdoc/db/mysql.md)
@@ -21,6 +21,7 @@
     - [NODE](serverdoc/node/node.md)
     - [SocketIO](serverdoc/node/SocketIO.md)
     - [OME框架 Sequelize](serverdoc/node/Sequelize.md)
+    - [package.json你了解多少](serverdoc/node/packagejson.md)
 - Python
     - [千寻的名字](serverdoc/python/lecture1.md)
     - [打印皮卡丘](serverdoc/node/node.md)
