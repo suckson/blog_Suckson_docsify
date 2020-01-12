@@ -2,14 +2,14 @@
  * @Author: suckson
  * @Date: 2019-09-30 10:47:10
  * @LastEditors  : suckson
- * @LastEditTime : 2019-12-18 23:28:44
+ * @LastEditTime : 2020-01-12 22:03:01
  */
 (function(window) {
     function Suckson() {
         this.ajax = function(method, url, data) {
             return new Promise((resolve, reject) => {
                 var request = new XMLHttpRequest();
-                request.open("get", url, true); /*设置请求方法与路径*/
+                request.open(method, url, true); /*设置请求方法与路径*/
                 request.onreadystatechange = function() {
                     if (request.readyState === 4) {
                         if (request.status === 200) {
@@ -28,7 +28,14 @@
                     const config = JSON.parse(response)
                     this.loadLib(config.isDev, config)
                 })
-            },
+                this.loadMusic(this.util.cdnUrl)
+            }
+            this.loadMusic = function (cdnUrl){
+                this.ajax('get', cdnUrl + '/configmp3List.json').then(response => {
+                    const MusicList = JSON.parse(response)
+                    window.MusicList = MusicList
+                })
+            }
             this.loadLib = function(isDev, config) {
                 this.ajax('get', './config/lib.json').then(response => {
                     const dependenvices = JSON.parse(response)
@@ -63,7 +70,7 @@
                 })
             },
             this.util = {
-                cdnUrl: 'http://suckson.com',
+                cdnUrl: 'http://alicdn.suckson.com',
                 loadScript: function(url, isDev, callback) {
                     var script = document.createElement("script");
                     script.type = "text/javascript"

@@ -3,8 +3,8 @@
  * @version: 
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
- * @LastEditors: suckson
- * @LastEditTime: 2019-12-12 12:53:13
+ * @LastEditors  : suckson
+ * @LastEditTime : 2020-01-02 11:09:01
  -->
 - [**计算机系统资源链接**](sysdoc/src/ziyuan.md)
 - 知识篇
@@ -20,6 +20,7 @@
     - [GIT]()
   - [算法]()
     - [奇数求和](sysdoc/src/every)
+    - [奇数求和](sysdoc/src/reg.md)
     - [查找电话号](sysdoc/src/every)
     - [查找单数]()
     - [查找杂散数]()

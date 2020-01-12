@@ -3,8 +3,8 @@
  * @version: 
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
- * @LastEditors: suckson
- * @LastEditTime: 2019-11-15 13:00:05
+ * @LastEditors  : suckson
+ * @LastEditTime : 2020-01-07 10:40:42
  -->
 - 心路历程
     - [毕业了](/arctile/biyele/biyele.md)
@@ -18,6 +18,7 @@
 - 我的翻译
     - [**JS前世今生**](/arctile/englishword/js_history.md)
     - [**论编程的乐趣**](/arctile/englishword/progamming_joy.md)
+    - [**我如何制作3D网页**](/arctile/englishword/study3d.md)
 - 收集文章
     - [好看的符号](/arctile/mystart/fuhao.md)
     - [金庸教你谈恋爱一](/arctile/jinyong/jinyong1.md)

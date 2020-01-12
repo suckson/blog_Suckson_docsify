@@ -3,8 +3,8 @@
  * @version: 
  * @Author: suckson
  * @Date: 2019-10-01 23:11:20
- * @LastEditors: suckson
- * @LastEditTime: 2019-12-15 22:29:07
+ * @LastEditors  : suckson
+ * @LastEditTime : 2020-01-12 21:38:19
  -->
 <p class="mystylefont1" style="font-size:20px;">Suckson-player</p>
 
@@ -16,47 +16,26 @@
   </div>
 <p>&nbsp;</p>
 
-<p id="chai">cahiheng<p>
-<script>
- document.getElementById('chai').onclick =function(){
-    alert(122)
-  }
-</script>
-<div class="bo1">
-    <div id="player">
-      <div class="cover"></div>
-      <div class="ctrl">
-        <div class="tag"> <strong>Title</strong> <span class="artist">Artist</span> <span class="album">Album</span> </div>
-        <div class="control">
-          <div class="left">
-            <div class="rewind icon"></div>
-            <div class="playback icon"></div>
-            <div class="fastforward icon"></div>
-          </div>
-          <div class="volume right">
-            <div class="mute icon left"></div>
-            <div class="slider left">
-              <div class="pace"></div>
-            </div>
-          </div>
-        </div>
-        <div class="progress">
-          <div class="slider">
-            <div class="loaded"></div>
-            <div class="pace"></div>
-          </div>
-          <div class="timer left">0:00</div>
-          <div class="right">
-            <div class="repeat icon"></div>
-            <div class="shuffle icon"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <ul id="playlist" class="uicss-cn">
-		<span style="width: 100%;height: 7px;display: block;"></span>
-    </ul>
+<div id="aplayer">
+
 </div>
+<script>
+   const ap = new APlayer({
+    container: document.getElementById('aplayer'),
+    autoplay: true,
+    theme: '#06ce48',
+    loop: 'all',
+    order: 'random',
+    preload: 'auto',
+    volume: 0.7,
+    mutex: true,
+    listFolded: false,
+    listMaxHeight: 150,
+    lrcType: 3,
+    audio: MusicList
+  });
+</script>
+<!-- 
 
 #### [《hey jude》](http://www.kuwo.cn/yinyue/8379114) `披头士的经典`
   >这是甲壳虫乐队的paul给约翰列依的儿子judy写的歌，约翰列依和老婆离婚了，paul喜欢judy害怕他的成长因为家庭变故受到影响，写了这首歌鼓励他的。伦敦奥运会开幕式全场高唱这首歌，激动人心.
@@ -82,4 +61,4 @@
 #### [Monsters](http://www.kuwo.cn/yinyue/5651795)
   >没有一个人是永久的潇洒 脑海里总会出现三个字 为什么 不解的表情 不解的心情 疯狂猜图些什么……~
 
-#### [Come And Get Your Love](http://www.kuwo.cn/yinyue/6107598)
+#### [Come And Get Your Love](http://www.kuwo.cn/yinyue/6107598) -->

@@ -8,7 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "upload": "node config/upload.js"
+    "upload": "node config/upload.js",
+    "makemp3": "node config/mp3.js"
   },
   "repository": {
     "type": "git",
