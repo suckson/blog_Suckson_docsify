@@ -9,7 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "upload": "node config/upload.js",
-    "makemp3": "node config/mp3.js"
+    "makemp3": "node config/mp3.js",
+    "encoding": "node config/encoding.js"
   },
   "repository": {
     "type": "git",

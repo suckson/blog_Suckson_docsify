@@ -2,9 +2,17 @@
  * @Descripttion: 
  * @version: 
  * @Author: suckson
+ * @Date: 2020-01-13 09:12:12
+ * @LastEditors  : suckson
+ * @LastEditTime : 2020-01-13 14:29:13
+ */
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: suckson
  * @Date: 2020-01-12 20:13:30
  * @LastEditors  : suckson
- * @LastEditTime : 2020-01-13 14:32:03
+ * @LastEditTime : 2020-01-12 22:04:22
  */
 /* eslint-disable no-console */
 /*
@@ -41,25 +49,14 @@ const fileHelper = {
   }
 }
 
-const objectToJson = (url) => {
- 
-}
+const publicPath = path.join(__dirname, '../blog_mp3/lrc')
 
-const publicPath = path.join(__dirname, '../blog_mp3')
-
-let Arr = []
-let cdnUrl = 'http://alicdn.suckson.com/'
 const doUpload = async (file) => {
   try {
-  let name = file.split(".")[0].split("-")
-    let obj = {
-      name:name[1],
-      artist: name[0],
-      url: cdnUrl + 'blog_mp3/' + file,
-      cover:cdnUrl + 'blog_mp3/img/' + name[0] + '.png',
-      lrc: cdnUrl + 'blog_mp3/lrcchange/'+file.split(".")[0] + '.txt'
-    }
-    Arr.push(obj) 
+    let newName = file.split(".")[0] + ".txt"
+    fileHelper.renameFile(file,newName).then(res => {
+      console.log(res)
+    })
   } catch (e) {
     console.log(e);
   }
@@ -72,13 +69,10 @@ const makeJson = (dir) => {
       if (fs.lstatSync(filePath).isDirectory()) {
        console.log("文件夹")
       }else{
-        let Arr = filePath.split('\\')
-        doUpload(Arr[Arr.length - 1])
+        doUpload(filePath)
       }
   })
-  fileHelper.writeFile(join("mp3List.json"), JSON.stringify(Arr)).then(res => {
-    console.log('json  list ok!')
-  })
+
 }
 
 makeJson(publicPath)
