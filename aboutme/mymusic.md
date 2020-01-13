@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-10-01 23:11:20
  * @LastEditors  : suckson
- * @LastEditTime : 2020-01-12 21:38:19
+ * @LastEditTime : 2020-01-13 16:03:24
  -->
 <p class="mystylefont1" style="font-size:20px;">Suckson-player</p>
 
@@ -30,7 +30,7 @@
     volume: 0.7,
     mutex: true,
     listFolded: false,
-    listMaxHeight: 150,
+    listMaxHeight: "453px",
     lrcType: 3,
     audio: MusicList
   });
