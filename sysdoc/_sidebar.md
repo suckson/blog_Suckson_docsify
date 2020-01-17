@@ -4,7 +4,7 @@
  * @Author: suckson
  * @Date: 2019-04-02 12:06:29
  * @LastEditors  : suckson
- * @LastEditTime : 2020-01-02 11:09:01
+ * @LastEditTime : 2020-01-15 22:38:35
  -->
 - [**计算机系统资源链接**](sysdoc/src/ziyuan.md)
 - 知识篇
@@ -12,6 +12,7 @@
     - [进程线程](sysdoc/src/thread.md)
   - [操作系统(错题集)](sysdoc/src/syscuotiji.md)
      - [ubuntu16.04装机](sysdoc/src/ubuntu16.md)
+     - [windows的包管理工具](sysdoc/src/window_package.md)
   - 必备神器
   - 网络协议
     - [HTTP](sysdoc/src/http.md)
