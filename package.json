@@ -1,6 +1,6 @@
 {
   "name": "blog_suckson_docsify",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "suckson life",
   "main": "index.js",
   "dependencies": {
@@ -19,7 +19,8 @@
   "keywords": [
     "blog",
     "node",
-    "js"
+    "js",
+    "es6"
   ],
   "author": "suckson",
   "license": "ISC",
