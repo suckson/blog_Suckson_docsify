@@ -12,20 +12,15 @@
 - [操作系统(错题集)](sysdoc/src/syscuotiji.md)
     - [ubuntu16.04装机](sysdoc/src/ubuntu16.md)
     - [windows的包管理工具](sysdoc/src/window_package.md)
-- 必备神器
+- [科学上网](sysdoc/vpn/vpn.md)
+
 - 网络协议
   - [HTTP](sysdoc/src/http.md)
   - [你真的了解Post和Get吗](sysdoc/networkprotocol/postorget.md)
 - 版本控制
   - [GIT]()
 - 算法
-  - [奇数求和](sysdoc/src/every)
-  - [奇数求和](sysdoc/src/reg.md)
-  - [查找电话号](sysdoc/src/every)
-  - [查找单数]()
-  - [查找杂散数]()
   - [每日一练](sysdoc/src/everyDay.md)
-  - [无限层级目录算法]()
 - how to become 伤不起
 - Continuous Integration
   - [github ci](sysdoc/src/gitci.md)
