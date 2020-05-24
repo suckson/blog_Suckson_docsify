@@ -243,3 +243,20 @@ white-space:nowrap;  // 不换行
      You successfullyread this important.
  </div>
  ```
+### 5.flex垂直居中布局
+```css
+  .flexContainer{
+    display:flex;
+    algin-item: center;
+    justify-content: space-around;
+  }
+```
+### 5.css 让鼠标的事件失效。
+
+设置或检索在何时成为属性事件的target。说白了设置了`none`之后元素的target就会失效。
+
+```css
+  .container{
+     pointer-events: none;
+  }
+```

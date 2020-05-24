@@ -10,10 +10,9 @@
 - [**归纳一个自己的学习路线**](/slientdoc/web/studyweb.md)
 - Css
     - [不常用到的css骚操作](/slientdoc/web/html/cssoperation)
-    - [css知识图谱](/slientdoc/web/html/csspng)
-    - [css伪类的探索](/slientdoc/web/html/css-weilie)
-    - [css易望特性](/slientdoc/web/html/flex)
-    - [布局flex](/slientdoc/web/html/flex)
+    - [布局之伪类元素](/slientdoc/web/html/css-weilie)
+    - [布局之flex](/slientdoc/web/html/flex)
+    - [布局之gird](/slientdoc/web/html/gird)
     
 - React
  - [react初步学期](/slientdoc/web/react/react.md)
