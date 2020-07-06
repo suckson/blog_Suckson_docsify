@@ -11,7 +11,7 @@
 
 >大一的时候，看见过一个视频，真的挺有感触的。很多时候我也是借着视频中的话来鞭策我自己,借着这个机会分享一下！
 
-<video width="100%" height="auto" src="https://suckson-portal.oss-cn-hangzhou.aliyuncs.com/video/video.mp4" controls="controls"> 
+<video width="100%" height="auto" src="https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/video/video.mp4" controls="controls"> 
 </video>
 
 > ` 如果不曾相许，为什么你会娓娓游入我的梦里？既然曾经相守，为什么我又要默默从你的瞳仁离去？都说：这便是分别、这便是失恋、这便是匆匆无情匆匆无语！都说：这便是候鸟一下失落了季节，轻触芦笛的唇儿把音符悠悠吹出去……`

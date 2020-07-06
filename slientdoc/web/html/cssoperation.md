@@ -260,3 +260,29 @@ white-space:nowrap;  // 不换行
      pointer-events: none;
   }
 ```
+
+### 5.css 一个刷脸的特效。
+
+<div class="line" style="width:250px; height:100px;"></div>
+
+```css
+.line {
+    height: calc(100% - 2px);
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 255, 51, 0) 43%, rgba(231,183,54,1) 211%);
+    border-bottom: 2px solid rgba(231,183,54,1);
+    transform: translateY(-100%);
+    animation: radar-beam 2s infinite;
+    animation-timing-function: cubic-bezier(0.3, 0, 0.43, 0.7);
+    animation-delay: 1.4s;
+}
+@keyframes radar-beam {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+```
