@@ -11,7 +11,7 @@
         "formatUpdated": "{YYYY}-{MM}-{DD} {HH}:{mm}",
         "auto2top": true,
         "repo": "https://github.com/Suckson/blog_Suckson_docsify",
-        "subMaxLevel": 2,
+        "subMaxLevel": 0,
         "maxLevel": 4,
         "loadNavbar": true,
         "loadSidebar": true,

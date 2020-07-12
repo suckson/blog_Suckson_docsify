@@ -5,7 +5,7 @@
  * @LastEditTime : 2020-01-12 22:03:01
  */
 (function(window) {
-    function Suckson() {
+    function Suckson(fun) {
         this.ajax = function(method, url, data) {
             return new Promise((resolve, reject) => {
                 var request = new XMLHttpRequest();
@@ -29,6 +29,7 @@
                     this.loadLib(config.isDev, config)
                 })
                 this.loadMusic(this.util.cdnUrl)
+                fun()
             }
             this.loadMusic = function (cdnUrl){
                 this.ajax('get', cdnUrl + '/configmp3List.json').then(response => {
