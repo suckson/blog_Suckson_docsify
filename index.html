@@ -8,88 +8,54 @@
  -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>舒克生博客</title>
-    <meta
-      http-equiv="Cache-Control"
-      content="no-cache, no-store, must-revalidate"
-    />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Description" />
-    <meta
-      name="keywords"
-      content="doc,docs,documentation,gitbook,creator,generator,github,jekyll,github-pages"
-    />
-    <meta name="description" content="A magical documentation generator." />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
-    <link
-      rel="shortcut icon "
-      type="images/x-icon"
-      href="./favicon.ico"
-    />
-    <link
-      rel="stylesheet"
-      href="./static/css/bootstrap.min.css"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./static/css/gitalk.css" />
-    <link rel="stylesheet" href="./static/animate/animate.css" />
-    <!-- Modernizr JS -->
-    <script src="js/modernizr-2.6.2.min.js"></script>
-    <!-- <link rel="stylesheet" href="./static/css/theme-simple.css"> -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.2.1/font-awesome-animation.min.css"
-    />
-    <link rel="stylesheet" href="./static/aplayer/APlayer.min.css" />
-    <link rel="stylesheet" href="./static/css/music.css" />
-    <!-- <link rel="stylesheet" href="./static/css/player.css"> -->
-    <link rel="stylesheet" href="./static/css/vue.css" />
-    <link rel="stylesheet" href="./static/prism/prism.css" />
-    <!-- <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/dark.css"> -->
-    <script src="./static/aplayer/APlayer.min.js"></script>
-    <style>
-              .line {
-          height: calc(100% - 2px);
-          width: 100%;
-          background: linear-gradient(180deg, rgba(0, 255, 51, 0) 43%, rgba(231,183,54,1) 211%);
-          border-bottom: 2px solid rgba(231,183,54,1);
-          transform: translateY(-100%);
-          animation: radar-beam 2s infinite;
-          animation-timing-function: cubic-bezier(0.3, 0, 0.43, 0.7);
-          animation-delay: 1.4s;
-      }
-      @keyframes radar-beam {
-        0% {
-            transform: translateY(-100%);
-        }
 
-        100% {
-            transform: translateY(0);
-        }
-        }
-    </style>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <title>舒克生博客</title>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description" />
+  <meta name="keywords" content="doc,docs,documentation,gitbook,creator,generator,github,jekyll,github-pages" />
+  <meta name="description" content="A magical documentation generator." />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <link rel="shortcut icon " type="images/x-icon" href="./favicon.ico" />
+  <link rel="stylesheet" href="./static/css/bootstrap.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./static/css/gitalk.css" />
+  <link rel="stylesheet" href="./static/animate/animate.css" />
+  <!-- Modernizr JS -->
+  <script src="js/modernizr-2.6.2.min.js"></script>
+  <!-- <link rel="stylesheet" href="./static/css/theme-simple.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.2.1/font-awesome-animation.min.css" />
+  <link rel="stylesheet" href="./static/aplayer/APlayer.min.css" />
+  <link rel="stylesheet" href="./static/css/music.css" />
+  <!-- <link rel="stylesheet" href="./static/css/player.css"> -->
+  <link rel="stylesheet" href="./static/css/vue.css" />
+  <link rel="stylesheet" href="./static/prism/prism.css" />
+  <link rel="stylesheet" href="./static/css/style.css" />
+  <!-- <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/dark.css"> -->
+  <script src="./static/aplayer/APlayer.min.js"></script>
+</head>
+<body>
+  <div id="app">Loading...</div>
+  <div id="aplayer"></div>
+  <script src="config/suckson.blog.js"></script>
+  <script>
+    window.onload = function () {
+      var su = new Suckson(function () {
+        console.log &&
+          console.log(
+            "在这个世界上，一部分人选择看到丑恶与混乱， 但我选择看到美好的一面。\n人们在讨论“有朝一日”的时候，其真正意思就是“永不”。\n我爸以前老是说，只有无聊的人才会感到无聊，可是我认为，生活在世上，只有无聊的人才不会感觉到无聊。\n\n这残暴的欢愉，终将以残暴结束，\n一知半解比一无所知更痛苦。 \n"
+          );
+        console.log(
+          "%c ",
+          'background-image:url("https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/img/%E6%AF%94%E5%BF%834.gif");background-size:100% 100%;background-repeat:no-repeat;background-position:center center;line-height:60px;padding:30px 120px;'
+        );
+      });
+    };
+  </script>
+</body>
 
-  <body>
-    <div id="app">Loading...</div>
-    <div id="aplayer"></div>
-    <script src="config/suckson.blog.js"></script>
-    <script>
-      window.onload = function () {
-        var su = new Suckson(function(){
-         console.log&&(console.log("在这个世界上，一部分人选择看到丑恶与混乱， 但我选择看到美好的一面。\n人们在讨论“有朝一日”的时候，其真正意思就是“永不”。\n我爸以前老是说，只有无聊的人才会感到无聊，可是我认为，生活在世上，只有无聊的人才不会感觉到无聊。\n\n这残暴的欢愉，终将以残暴结束，\n一知半解比一无所知更痛苦。 \n"))
-         console.log('%c ','background-image:url("https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/img/%E6%AF%94%E5%BF%834.gif");background-size:100% 100%;background-repeat:no-repeat;background-position:center center;line-height:60px;padding:30px 120px;');
-        });
-      };
-    </script>
-  </body>
 </html>

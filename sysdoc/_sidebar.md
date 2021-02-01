@@ -14,6 +14,7 @@
 - [**操作系统(概论)**](sysdoc/src/sys.md)
 - [**进程线程**](sysdoc/src/thread.md)
 - [**每日一练**](sysdoc/src/everyDay.md)
+- [**正则匹配**](sysdoc/src/regular-epression.md)
 - [**操作系统(错题集)**](sysdoc/src/syscuotiji.md)
     - [ubuntu16.04装机](sysdoc/src/ubuntu16.md)
     - [windows的包管理工具](sysdoc/src/window_package.md)
