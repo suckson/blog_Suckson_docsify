@@ -1,11 +1,3 @@
-/*
- * @Descripttion: 
- * @version: 
- * @Author: suckson
- * @Date: 2020-01-12 20:13:30
- * @LastEditors  : suckson
- * @LastEditTime : 2020-01-13 14:32:03
- */
 /* eslint-disable no-console */
 /*
  * @Descripttion:
