@@ -19,6 +19,10 @@
 - [RN开发之环境搭建](/slientdoc/web/react/react-rn1.md)
 - [RN开发真机调试](/slientdoc/web/react/reactdebugger.md)
 
+
+- Flutter
+- [flutter_web](/slientdoc/flutter/flutter_web.md)
+
 - GIS
 - [gis学习](/slientdoc/web/gis/gis.md)
 
