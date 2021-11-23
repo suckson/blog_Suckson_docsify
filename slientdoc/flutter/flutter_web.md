@@ -18,18 +18,113 @@ flutter在移动端的实践中，目前来说已经有很成熟的业界方案�
 
 ###  fluuter_web demo
 
+我们初始化一个webdemo 
+1 检查我们的是否支持web端的构建 执行
+···bash
+flutter devices
+···
+<img src="https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/flutter/951636992056_.pic_hd.jpg"> 
+2、然后在命令行执行 flutter create you ProjectName
+3、 flutter run -d chrome
+
+这里我们用最简单的官方demo来掩饰我们的案例
+
 ```dart
+import 'package:flutter/material.dart';
 
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'FlutterWeb Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+    );
+  }
+}
+
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({Key? key, required this.title}) : super(key: key);
+  
+
+  final String title;
+
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  int _counter = 0;
+
+  void _incrementCounter() {
+    setState(() {
+      _counter++;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            const Text(
+              'You have pushed the button this many times:',
+            ),
+            Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.headline4,
+            ),
+          ],
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: _incrementCounter,
+        tooltip: 'Increment',
+        child: const Icon(Icons.add),
+      ), // This trailing comma makes auto-formatting nicer for build methods.
+    );
+  }
+}
 ````
+<img src="https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/flutter/981637686330_.pic_hd.jpg"> 
+`flutter` 编译后的页面元素
 
-```html
-```
-
-这是一个fultter一个官方demo。
+<img src="https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/flutter/971637460663_.pic_hd.jpg"> 
+`flutter` 编译后的文件结构
 
 ###  fluuter_web demo分析
+
+1·  `flt-glass-pane` 元素
+
+<img src="https://suckosn-blog.oss-cn-hangzhou.aliyuncs.com/flutter/991637689002_.pic_hd.jpg"> 
+这里我们看到`dart_sdk.js`封装了我们浏览器的document.createElement方法。生成了html元素。
  
  1、 canvas API
+```html
+<flt-scene-host style="pointer-events: none;" aria-hidden="true"><flt-scene><flt-canvas-container>
+<canvas width="588" height="913" style="position: absolute; width: 588px; height: 913px; transform: translate(0px, 0px);">
+</canvas>
+</flt-canvas-container>
+</flt-scene>
+</flt-scene-host>
+```
+ canvas 的绘制逻辑
+
+
  2、css 应用
  3、解释器
 
