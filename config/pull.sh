@@ -5,4 +5,4 @@ cd /usr/share/nginx/blog_Suckson_docsify
 echo '开始拉去最新代码'
 git pull
 ## 打包静态文件
-echo '最新文章处理完成'
+echo '最新文章处理完成!'
