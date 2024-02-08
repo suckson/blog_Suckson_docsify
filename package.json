@@ -4,7 +4,8 @@
   "description": "suckson life",
   "main": "index.js",
   "dependencies": {
-    "ali-oss": "6.3.1"
+    "ali-oss": "6.3.1",
+    "github-webhook-handler": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
