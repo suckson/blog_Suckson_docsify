@@ -9,11 +9,11 @@ target/
 *.iml
 .idea/
 .idea
-../.idea/
 *.swp
 *.swo
 *.swn
 *.DS_Store
+package-lock.json
 logs
 config/cdnConfig.js
 node_modules
