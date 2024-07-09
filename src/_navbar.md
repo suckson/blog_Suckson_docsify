@@ -10,8 +10,10 @@
   - [English](/en/en.md) -->
 
 * 技术文集
-  * [前端开发](/slientdoc/web/moudle)
+  * [前端开发](/slientdoc/web/)
   * [后端开发](/serverdoc/java/)
-  * [计算机内功](/sysdoc/)
+  * [计算机](/sysdoc/)
+  * [羽毛球](/badminton/)
+  
 * [末日文集](/arctile/biyele/biyele.md)
 * [关于我](/aboutme/my.md)
