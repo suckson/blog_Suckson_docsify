@@ -10,7 +10,7 @@
 
 ### 1.`::before`和`::after`
 
-<img src="https://suckson-blog-static.oss-cn-beijing.aliyuncs.com/static/313F1A3FB096C31D35EB370A0472BA91.jpg" />
+<img src="https://alicdn.suckson.com/static/313F1A3FB096C31D35EB370A0472BA91.jpg" />
 
 诸如这样的效果，我们当然也可以写两个class  .left or  .right,但是这种修饰性的元素我们直接写在DOM里面会显得不是很优雅。为此 ，可以结合::before和::after下特有的content，用于在css渲染中向元素逻辑上的头部或尾部添加内容。
 经常可以见到一些font-icon库的作者使用Class 其实就是用了这个原理 

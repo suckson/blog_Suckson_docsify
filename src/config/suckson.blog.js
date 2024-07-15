@@ -71,7 +71,7 @@
                 })
             },
             this.util = {
-                cdnUrl: 'https://suckson-blog-static.oss-cn-beijing.aliyuncs.com',
+                cdnUrl: 'https://alicdn.suckson.com',
                 loadScript: function(url, isDev, callback) {
                     var script = document.createElement("script");
                     script.type = "text/javascript"

@@ -40,7 +40,7 @@ const objectToJson = (url) => {
 const publicPath = path.join(__dirname, '../blog_mp3')
 
 let Arr = []
-let cdnUrl = 'https://suckson-blog-static.oss-cn-beijing.aliyuncs.com/'
+let cdnUrl = 'https://alicdn.suckson.com/'
 const doUpload = async (file) => {
   try {
   let name = file.split(".")[0].split("-")
